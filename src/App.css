@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,35 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.form{
+  margin-left: 20px;
+}
+.switch-form{
+  position:absolute;
+  top:50%;
+}
+.plane-view{
+  position: absolute;
+  left:30%;
+  top:0%;
+  height:fit-content;
+  max-height: max-content;
+}
+.elevation-view{
+  position:absolute;
+  left: 30%;
+  top:50%;
+  height: fit-content;
+  max-height: max-content;
+}
+.output-panel{
+  position: absolute;
+  left: 70%;
+  top:0%;
+}
+.vertical-writing{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin-bottom: 10%
 }
